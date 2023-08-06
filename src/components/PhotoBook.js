@@ -302,6 +302,325 @@ const PhotoBook = () => {
         <Page number={2} className="pages">
           <Image
             cloudName="pastorcoder"
+            publicId="real-estate-ccg-2023/Laolu Alabi - CEO Damilare Baker.png"
+            className="page-img-orientation"
+            alt={userDetails[1].name}
+          />
+
+          <div style={{ marginLeft: "30px" }}>
+            {/* Display details for Sam Ayeni */}
+            <p>
+              <CelebrationIcon className="icon" />
+              <span className="sam-ayeni-name"> {userDetails[0].name}</span>
+            </p>
+            <p>
+              {/**<CelebrationIcon className="icon" /> */}
+              <span className="post-in-ccg"> {userDetails[0].postInCCG}</span>
+            </p>
+            <p>
+              <CakeIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Birthday :</b>
+              <span className="dob"> {userDetails[0].birthday}</span>
+              <Tooltip
+                title={`Add date to calendar to wish ${userDetails[0].name} happy birthday`}
+                arrow
+                placement="left"
+              >
+                <AddAlarmIcon className="alarm-icon" />
+              </Tooltip>
+            </p>
+            <p>
+              <LocationOnIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Location :</b>
+              <span> {userDetails[0].location}</span>
+            </p>
+            <p>
+              <BusinessIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Company name :</b>
+              <span> {userDetails[0].companyName.first}</span>{" "}
+              <span>and {userDetails[0].companyName.second}</span>
+            </p>
+            <p>
+              <RadarIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Position in company :
+              </b>
+              <span> {userDetails[0].positionHeldInCompany}</span>{" "}
+            </p>
+            <p>
+              <SpaIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Nature of business :
+              </b>
+              <span> {userDetails[0].natureOfBusiness}</span>{" "}
+            </p>
+            <p>
+              <TimesOneMobiledataIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Number of time in CCG :
+              </b>
+              <span> {userDetails[0].numberOfTimesInCCG}</span>{" "}
+            </p>
+            <p>
+              <ChurchIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Religion :</b>
+              <span> {userDetails[0].religion}</span>{" "}
+            </p>
+            <p>
+              <CallSplitIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Denomination and Location :
+              </b>
+              <span> {userDetails[0].denominationAndLocation}</span>{" "}
+            </p>
+            <p>
+              <RestaurantIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Favourite Meal :
+              </b>
+              <span> {userDetails[0].favouriteMeal}</span>{" "}
+            </p>
+            <span>
+              <ModelTrainingIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Role Model :</b>
+              <span style={{ fontSize: "15px" }}>
+                {" "}
+                {userDetails[0].roleModel.first} ,{" "}
+                {userDetails[0].roleModel.second} ,
+                {userDetails[0].roleModel.third} .
+              </span>{" "}
+            </span>
+            <p>
+              <ShuffleIcon className="icon" />
+              <b
+                style={{
+                  color: "grey",
+                  marginLeft: "1px",
+                }}
+              >
+                Something random about {userDetails[0].name} :
+              </b>
+              <span className="text-container">
+                {" "}
+                {userDetails[0].randomThingAboutYou}
+              </span>{" "}
+            </p>
+            <p>
+              <DownhillSkiingIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Hobbies and interest :
+              </b>
+              <span> {userDetails[0].hobbies}</span>{" "}
+            </p>
+            <p>
+              <OpenInNewIcon className="icon" style={{ marginTop: "20px" }} />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Website : </b>
+              <a
+                href={`http://${userDetails[0].socialLinks.website}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {userDetails[0].socialLinks.website}
+              </a>
+            </p>
+            <div>
+              <a
+                href={`http://${userDetails[0].socialLinks.linkedin}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LinkedInIcon className="social-icons" />
+              </a>
+
+              <a
+                href={`http://${userDetails[0].socialLinks.instagram}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <InstagramIcon className="social-icons" />
+              </a>
+
+              <a
+                href={`http://${userDetails[0].socialLinks.twitter}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <TwitterIcon className="social-icons" />
+              </a>
+
+              <a
+                href={`http://${userDetails[0].socialLinks.facebook}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FacebookIcon className="social-icons" />
+              </a>
+            </div>
+          </div>
+        </Page>
+        <Page number={3} className="pages">
+          <Image
+            cloudName="pastorcoder"
+            publicId="real-estate-ccg-2023/Odo Emmanuel - Architect at Jet ceramics Ltd2.jpg"
+            className="page-img-orientation"
+            alt={userDetails[2].name}
+            style={{width: "250px"}}
+          />
+
+          <div style={{ marginLeft: "30px" }}>
+            {/* Display details for Sam Ayeni */}
+            <p>
+              <CelebrationIcon className="icon" />
+              <span className="sam-ayeni-name"> {userDetails[0].name}</span>
+            </p>
+            <p>
+              {/**<CelebrationIcon className="icon" /> */}
+              <span className="post-in-ccg"> {userDetails[0].postInCCG}</span>
+            </p>
+            <p>
+              <CakeIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Birthday :</b>
+              <span className="dob"> {userDetails[0].birthday}</span>
+              <Tooltip
+                title={`Add date to calendar to wish ${userDetails[0].name} happy birthday`}
+                arrow
+                placement="left"
+              >
+                <AddAlarmIcon className="alarm-icon" />
+              </Tooltip>
+            </p>
+            <p>
+              <LocationOnIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Location :</b>
+              <span> {userDetails[0].location}</span>
+            </p>
+            <p>
+              <BusinessIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Company name :</b>
+              <span> {userDetails[0].companyName.first}</span>{" "}
+              <span>and {userDetails[0].companyName.second}</span>
+            </p>
+            <p>
+              <RadarIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Position in company :
+              </b>
+              <span> {userDetails[0].positionHeldInCompany}</span>{" "}
+            </p>
+            <p>
+              <SpaIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Nature of business :
+              </b>
+              <span> {userDetails[0].natureOfBusiness}</span>{" "}
+            </p>
+            <p>
+              <TimesOneMobiledataIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Number of time in CCG :
+              </b>
+              <span> {userDetails[0].numberOfTimesInCCG}</span>{" "}
+            </p>
+            <p>
+              <ChurchIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Religion :</b>
+              <span> {userDetails[0].religion}</span>{" "}
+            </p>
+            <p>
+              <CallSplitIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Denomination and Location :
+              </b>
+              <span> {userDetails[0].denominationAndLocation}</span>{" "}
+            </p>
+            <p>
+              <RestaurantIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Favourite Meal :
+              </b>
+              <span> {userDetails[0].favouriteMeal}</span>{" "}
+            </p>
+            <span>
+              <ModelTrainingIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Role Model :</b>
+              <span style={{ fontSize: "15px" }}>
+                {" "}
+                {userDetails[0].roleModel.first} ,{" "}
+                {userDetails[0].roleModel.second} ,
+                {userDetails[0].roleModel.third} .
+              </span>{" "}
+            </span>
+            <p>
+              <ShuffleIcon className="icon" />
+              <b
+                style={{
+                  color: "grey",
+                  marginLeft: "1px",
+                }}
+              >
+                Something random about {userDetails[0].name} :
+              </b>
+              <span className="text-container">
+                {" "}
+                {userDetails[0].randomThingAboutYou}
+              </span>{" "}
+            </p>
+            <p>
+              <DownhillSkiingIcon className="icon" />
+              <b style={{ color: "grey", marginLeft: "1px" }}>
+                Hobbies and interest :
+              </b>
+              <span> {userDetails[0].hobbies}</span>{" "}
+            </p>
+            <p>
+              <OpenInNewIcon className="icon" style={{ marginTop: "20px" }} />
+              <b style={{ color: "grey", marginLeft: "1px" }}>Website : </b>
+              <a
+                href={`http://${userDetails[0].socialLinks.website}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {userDetails[0].socialLinks.website}
+              </a>
+            </p>
+            <div>
+              <a
+                href={`http://${userDetails[0].socialLinks.linkedin}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LinkedInIcon className="social-icons" />
+              </a>
+
+              <a
+                href={`http://${userDetails[0].socialLinks.instagram}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <InstagramIcon className="social-icons" />
+              </a>
+
+              <a
+                href={`http://${userDetails[0].socialLinks.twitter}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <TwitterIcon className="social-icons" />
+              </a>
+
+              <a
+                href={`http://${userDetails[0].socialLinks.facebook}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FacebookIcon className="social-icons" />
+              </a>
+            </div>
+          </div>
+        </Page>
+        <Page number={4} className="pages">
+          <Image
+            cloudName="pastorcoder"
             publicId="real-estate-ccg-2023/sam-ayeni1.png"
             className="page-img-orientation"
             alt={userDetails[0].name}
@@ -458,7 +777,7 @@ const PhotoBook = () => {
             </div>
           </div>
         </Page>
-        <Page number={3} className="pages">
+        <Page number={5} className="pages">
           <img src={Image2} alt="2" className="page-img-orientation" />
           Image Two...
           <div>
@@ -471,7 +790,7 @@ const PhotoBook = () => {
             <h6>Role Model (1st): {userDetails[1].roleModel.first}</h6>
           </div>
         </Page>
-        <Page number={4} className="pages">
+        <Page number={6} className="pages">
           <img src={Image3} alt="3" className="page-img-orientation" />
           Image Three...
           {/* Display details for John */}
@@ -484,23 +803,23 @@ const PhotoBook = () => {
             <p>Role Model (1st): {userDetails[2].roleModel.first}</p>
           </div>
         </Page>
-        <Page number={5} className="pages">
+        <Page number={7} className="pages">
           <img src={Image4} alt="4" className="page-img-orientation" />
           Image Four...
         </Page>
-        <Page number={6}>
+        <Page number={8}>
           <img src={Image5} alt="5" className="page-img-orientation" />
           Image Five...
         </Page>
-        <Page number={7}>
+        <Page number={9}>
           <img src={Image6} alt="6" className="page-img-orientation" />
           Image Six...
         </Page>
-        <Page number={8}>
+        <Page number={10}>
           <img src={Image7} alt="7" className="page-img-orientation" />
           Image Seven...
         </Page>
-        <Page number={9}></Page>
+        <Page number={11}></Page>
         {/*...*/}
         <PageCover>THE END</PageCover>
       </HTMLFlipBook>
