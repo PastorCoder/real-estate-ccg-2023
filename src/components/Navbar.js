@@ -3,7 +3,7 @@ import { Image } from "cloudinary-react";
 function Navbar() {
   return (
     <div className="container">
-      <div class="appjs-image-with-text">
+      <div className="appjs-image-with-text">
         <Image
           cloudName="pastorcoder"
           publicId="real-estate-ccg-2023/covenant community group logo 2.png"
